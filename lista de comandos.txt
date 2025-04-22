@@ -1,0 +1,29 @@
+# Acessar o diretório principal
+cd C:/EmbarcaTech/Residencia
+
+# Criar o diretório do curso
+mkdir curso-git
+
+# Acessar o diretório do curso
+cd curso-git
+
+# Inicialisar o repositório
+git init --initial-branch=main
+
+# Configurar localmente nome do usuário
+git config user.name "Diogo Sena"
+
+# Configurar localmente email do usuário
+git config user.email "diogodmsena@gmail.com"
+
+# Criar arquivo no windows contendo nome e matrícula dentro do diretório do curso
+# Adicionar arquivo à área de preparação
+git add .
+
+# Realizando o primeiro commit
+git commit -m "meu primeiro commit"
+
+# Criar o repositório remoto e fazer o envio 
+git remote add origin-github https://github.com/diogodmsena/curso-git-embarcatech.git
+git push -u origin-github main
+
