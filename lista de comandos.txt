@@ -18,7 +18,7 @@ git config user.email "diogodmsena@gmail.com"
 
 # Criar arquivo no windows contendo nome e matrícula dentro do diretório do curso
 # Adicionar arquivo à área de preparação
-git add .
+git add "nome e matricula.txt"
 
 # Realizando o primeiro commit
 git commit -m "meu primeiro commit"
@@ -27,3 +27,11 @@ git commit -m "meu primeiro commit"
 git remote add origin-github https://github.com/diogodmsena/curso-git-embarcatech.git
 git push -u origin-github main
 
+# Adicionar arquivo à área de preparação para commit
+git add .
+
+# Realizando o segundo commit
+git commit -m "criação do arquivo com lista de comandos da tarefa"
+
+# Enviando para o repositório remoto
+git push -u origin-github main
